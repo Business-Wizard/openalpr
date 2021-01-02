@@ -8,7 +8,8 @@ Docker
 
 ``` shell
 # Build docker image
-docker build -t openalpr https://github.com/openalpr/openalpr.git
+docker build -t openalpr https://github.com/Business-Wizard/openalpr
+# https://github.com/openalpr/openalpr.git
 # Download test image
 wget http://plates.openalpr.com/h786poj.jpg
 # Run alpr on image
