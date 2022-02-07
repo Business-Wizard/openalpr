@@ -132,10 +132,7 @@ class Alpr:
 
         :return: A bool representing if OpenALPR is loaded or not
         """
-        if not self.loaded:
-            return False
-
-        return self._is_loaded_func(self.alpr_pointer)
+        return False if not self.loaded else self._is_loaded_func(self.alpr_pointer)
 
     def recognize_file(self, file_path):
         """
